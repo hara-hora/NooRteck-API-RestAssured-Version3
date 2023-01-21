@@ -13,6 +13,5 @@ Feature: Get One job information by id API
       | <jobId> | <jobTit>  | <minSal>   | <maxSal>   |
 
     Examples: 
-      | region  | apiName         | statusCode | jobId  | jobTit               | minSal | maxSal |
-      | "scrum" | "Job:GetOneJob" | "200"      | MK_MAN | Marketing Manager    |   9000 |  15000 |
-      | "scrum" | "Job:GetOneJob" | "200"      | SA_REP | Sales Representative |   6000 |  12000 |
+      | region  | apiName         | statusCode | jobId | jobTit    | minSal | maxSal |
+      | "scrum" | "Job:GetOneJob" | "200"      | AB+   | Anne Teak |   1083 |   3171 |
