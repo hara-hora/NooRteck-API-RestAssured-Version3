@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 					features = "src/test/resources/hr/US102-PutExEmp.feature",
 					glue = "com.noorteck.qa.steps",					
 							plugin = {"summary","pretty", "html:target/cucumber-reports.html",
-									"json:target/distination/cucumber-reports.json",					
+									"json:target/destnation/cucumber-reports.json",					
 									"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 					monochrome = true
 						)
