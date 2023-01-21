@@ -94,7 +94,7 @@
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-core</artifactId>
 			<version>6.2.2</version>
-			<scope>>test</scope>
+			<scope>test</scope>
 		</dependency>
 
 
